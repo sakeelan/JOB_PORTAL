@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.fil{
+    color: black;
+    border: 2px orange solid;
+ background-color: rgba(219, 165, 121, 0.5);
+width: 30%;
+font-size: 30px;
+padding: 5px;
+text-align: center;
+box-shadow: 0 5px 8px  rgb(228, 139, 88);
+border-radius: 20px;
+margin-top: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+
+}
+.opening{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 50px;
+
+}
+
+.job{
+    background: linear-gradient(180deg, rgb(216, 186, 17), rgb(206, 79, 29));
+padding: 15px;
+border-radius:10px ;
+box-shadow: 0 5px 8px  black;
+width: 20%;
+margin-bottom: 40px;
+}
+
+.but{
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    background-color: rgb(194, 37, 37);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: blanchedalmond;
+font-family: cursive;
+width: 100px;
+    box-shadow: 0 5px 8px  black;
+}
+button:hover{
+    background-color: rgb(192, 64, 47);
+    cursor: pointer;
+}
+span{
+    font-size: 20px;
+    font-style: italic;
+}
+.two{
+    display: flex;
+    gap: 10%;
+
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+h3{
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ 
+}
+
+.nav a{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* -------------------form--------------------- */
+
